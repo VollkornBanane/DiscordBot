@@ -6,7 +6,7 @@ import discord.utils
 import dateparser
 
 # file with token inside
-token = open("properties.txt").read()
+token = open("token.txt").read()
 
 intents = discord.Intents.default()
 intents.message_content = True
